@@ -1,0 +1,33 @@
+Proyek 3
+Bank Application
+
+skenario : Anda adalah seorang Back-end Developer dan ditugaskan membuat aplikasi untuk menangani permintaan 
+rekening bank pelanggan baru.
+
+aplikasinya berisikan sebagai berikut:
+- baca file .csv atau nama , nomor jaminan sosial, jenis akun, dan setoran awal.
+- gunakan struktur data yang tepat untuk menyimpan akun.
+- baik rekening tabungan maupun pengecekan akun memiliki properti sebagai berikut: 
+	deposit() , 
+	withdraw(), 
+	transfer(),
+	showinfo().
+	11 digit nomor rekening (dihasilkan dengan proses : 1 atau 2 tergantung pada tabungan atau pengecekan akun, 
+	dua digit terakhir ssn, 5 digit nomor unik, dan 3 digit nomor acak).
+- Pemegang rekening tabungan diberikan safety deposit box, diidentifikasi dengan 3 digit nomor dan diakses 
+dengan 4 digit kode.
+- pemegang pengecekan akun diberikan kartu debit dengan 12 digit nomor dan 4 digit PIN.
+- Kedua akun akan menggunakan interface yang menentukan tingkat bunga dasar.
+  rekening tabungan akan menggunakan 0,25 poin lebih sedikit dari tarif dasar.
+  pengecekan akun akan menggunakan 15% dari tarif dasar.
+- metode showinfo harus mengungkapkan informasi rekening yang relevan serta informasi khusus untuk 
+pengecekan akun atau rekening tabungan.
+
+Tujuan pembelajaran:
+- belajar mengembangkan arsitektur aplikasi yang kuat.
+- belajar kapan harus menggunakan kelas abstrak dan metode abstrak.
+- menggunakan interface API untuk menerima informasi dari aplikasi pengembang.
+- jelajahi konstruktor lebih dalam dan gunakan super() keyword.
+- jelajahi access modifiers dan kapan harus menggunakan public, private, atau protected.
+- membaca data dari file dan menyimpannya dalam struktur data yang sesuai.
+- menghasilkan angka acak dan bekerja dengan String API.
