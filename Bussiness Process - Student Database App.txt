@@ -1,0 +1,19 @@
+Proyek 2
+Aplikasi Database Siswa
+
+Skenario: Anda adalah seorang Database Administrator untuk universitas dan dibebankan tugas
+membuat aplikasi untuk mengelola pendaftaran dan saldo siswa.
+
+Aplikasinya berisikan sebagai berikut : 
+- Tanyakan kepada pengguna berapa banyak siswa baru yang akan ditambahkan ke database.
+- Pengguna harus diminta untuk memasukkan nama dan tahun untuk setiap siswa
+- Siswa harus memiliki ID unik 5 digit, dengan nomor pertama adalah tingkat kelas mereka.
+- Siswa dapat mendaftar di kursus berikut:
+	Sejarah 101
+	Matematika 101
+	Bahasa Inggris 101
+	Kimia 101
+	Ilmu Komputer 101
+- Setiap kursus berharga $600 untuk mendaftar
+- Siswa harus dapat melihat saldo mereka dan membayar uang sekolah
+- Untuk melihat status siswa, kita harus melihat nama, ID, mata kuliah yang terdaftar, dan saldo

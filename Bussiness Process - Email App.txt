@@ -1,0 +1,13 @@
+Proyek 1
+Aplikasi Email
+
+Skenario: Anda adalah seorang IT Support Administrator Specialist dan dibebankan tugas untuk 
+membuat akun email karyawan baru. 
+
+Aplikasinya harus berisikan sebagai berikut:
+- Hasilkan email dengan sintaks berikut: firstname.lastname@department.company.com
+- Tentukan departemen (sales, development, accounting), jika tidak ada biarkan kosong.
+- Hasilkan String acak untuk kata sandi.
+- Tetapkan set methods untuk mengubah kata sandi, mengatur kapasitas kotak surat, dan menentukan alternatif
+alamat email.
+- Tetapkan get methods untuk menampilkan nama, email, dan kapasitas kotak surat.
